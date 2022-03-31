@@ -1,0 +1,84 @@
+
+.main {
+    padding-bottom: 80rem;
+    background-color: #f3f3f3;
+}
+
+/* banner */
+.banner {
+    background-image: url('../images/doi-tac/doi-tac1.jpg');
+    height: 26rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner-info {
+    width: 100%;
+    height: 100%;
+    padding: 5rem 3.5rem;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+}
+
+.banner-info__img {
+    margin: 2rem 0;
+}
+
+.banner-info__img img {
+    object-fit: cover;
+}
+
+.banner-info h1 {
+    margin: 0;
+    word-spacing: 10px;
+    font-family: Gotham-Ultra;
+    text-transform: uppercase;
+}
+
+/* container */
+.products {
+    position: relative;
+    width: 100%;
+}
+
+.partner {
+    position: absolute;
+    top: -3rem;
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2rem 0;
+    background-color: #fff;
+} 
+
+.products__item__left {
+    width: 100%;
+}
+
+.products__item__img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.products__item__img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.products__item__right {
+    padding-top: 4rem;
+}
+
+.products__item__right h3 {
+    color: #db945d;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    font-family: Gotham-Ultra;
+}
+
+.products__item__right p {
+    color: #2c2e53;
+    font-family: Gotham-Medium;
+}

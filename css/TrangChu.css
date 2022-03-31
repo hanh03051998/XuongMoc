@@ -1,0 +1,458 @@
+
+/* banner */
+.banner {
+    background-image: url('../images/banner.png');
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner-info {
+    width: 100%;
+    height: 100%;
+    padding: 5rem 3.5rem;
+}
+
+.banner-info h1 {
+    margin: 0;
+    font-family: Gotham-Ultra;
+    text-transform: uppercase;
+}
+
+.banner-info h1:nth-child(1) {
+    color: #2c2e53;
+}
+
+.banner-info h1:nth-child(2) {
+    color: #db945f;
+}
+
+.banner-info p {
+    width: 50%;
+    margin-top: 1rem;
+    font-family: Gotham-Medium;
+}
+
+.banner-info button {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Gotham-Ultra;
+    background-color: #db945f;
+    padding: .2rem 1.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+/* products */
+.products {
+    position: relative;
+    width: 100%; 
+    background-color: #f3f3f3;
+}
+
+.products-list {
+    position: absolute;
+    top: -3rem;
+    left: 50%;
+    width: 70%;
+    transform: translateX(-50%);
+    padding: 2rem 0;
+    background-color: #fff;
+}
+
+.products-item {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products-item-img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.products-item-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.products-item a {
+    color: #2c2e53;
+    font-family: Gotham-Ultra;
+}
+
+/* slide */
+.products-slide {
+    padding: 25rem 23rem 4rem 23rem;
+}
+
+.products-slide h3 {
+    color: #2c2e53;
+    padding-top: 5rem;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    font-family: Gotham-Ultra;
+}
+
+.products-slide h3::after {
+    position: absolute;
+    content: '';
+    bottom: -.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 2px;
+    background-color: #db945f;
+}
+
+.slide-item {
+    text-align: center;
+}
+
+.slide-item-img {
+    width: 100%;
+    height: 12rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.slide-item-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide-item h6 {
+    color: #2c2c2c;
+    text-transform: uppercase;
+    font-family: Gotham-Ultra;
+    margin: 0;
+}
+
+.slide-item-icon i {
+    color: #db945f;
+    font-size: .7rem;
+}
+
+#carouselExampleControls {
+    padding: 0 2rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    background-color: #db945f;
+    border-radius: 50%;
+    top: 30% !important;
+}
+
+.carousel-control-prev {
+    left: -1.5rem !important;
+}
+
+.carousel-control-next {
+    right: -1.5rem !important;
+}
+
+/* abouts */
+.aboutUs {
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 2rem 0;
+}
+
+.overlay {
+    background-image: url('../images/TRANGCHU1.jpg');
+    color: rgba(206, 240, 54, 0.9);
+}
+
+.aboutUs>.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: .8;
+}
+
+.aboutUs h3 {
+    color: #fff;
+    font-family: Gotham-Ultra;
+    text-transform: uppercase;
+    position: relative;
+    width: fit-content;
+    margin: 2rem auto 3rem;
+}
+
+.aboutUs h3::after {
+    position: absolute;
+    content: '';
+    bottom: -0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 7px;
+    background-color: #db945f;
+}
+
+.aboutUs-img {
+    width: 100%;
+    height: 20rem;
+    padding: 0 2rem 0 2rem;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+
+.aboutUs-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.aboutUs-info {
+    padding: 0 2rem 0 1rem;
+}
+
+.aboutUs-info h5 {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Gotham-Medium;
+    letter-spacing: 1px;
+}
+
+.aboutUs-info p {
+    color: #fff;
+    font-size: .7rem;
+    margin: 1rem 0;
+}
+
+.aboutUs-list .aboutUs-item {
+    width: 18%;
+    position: relative;
+    margin-right: 2.5rem;
+}
+
+.aboutUs-item a {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: .8rem;
+    text-align: center;
+    color: #fff;
+}
+
+.why-item {
+    padding: 1rem;
+}
+
+.why-item-info {
+    background-color: #fff;
+    padding: .5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.why-item-info img {
+    width: 5rem;
+    height: 5rem;
+    margin-right: 1rem;
+}
+
+.why-item-info p {
+    margin: 0;
+    text-transform: uppercase;
+    color: #db945f;
+    font-family: Gotham-Ultra;
+}
+
+.why-item-info span {
+    color: #000;
+    font-family: Gotham-Ultra;
+    font-size: .7rem;
+}
+
+/* news/ đối tác*/
+.news h3 {
+    color: #2c2e53;
+    padding-top: 5rem;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    font-family: Gotham-Ultra;
+}
+
+.news h3::after {
+    position: absolute;
+    content: '';
+    bottom: -.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 2px;
+    background-color: #db945f;
+}
+
+.news-left {
+    position: relative;
+    background-image: url('../images/tin-tuc/tintuc-1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 30rem;
+    margin-left: 2rem;
+}
+
+.news-left-info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #db945f;
+    padding: 1rem 2rem;
+}
+
+.news-left-info a {
+    color: #fff;
+    font-family: Gotham-Medium;
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+}
+
+.news-left-info p {
+    margin: 0;
+    font-size: .8rem;
+}
+
+.news-right {
+    margin-left: 1rem;
+}
+
+.news-right-item {
+    margin-bottom: 1.5rem;
+}
+
+.news-right-item img {
+    width: 8rem;
+    height: 8rem;
+}
+
+.news-right-item a {
+    color: #db945f;
+    font-family: Gotham-Medium;
+    font-size: 1rem;
+}
+
+.news-right-item a:hover {
+    color: #f89346;
+    font-size: 1.1rem;
+}
+.news-right-item p {
+    margin: 0;
+    font-size: .8rem;
+    color: #000000;
+}
+
+.news-right a {
+    color: #db945f;
+    font-family: Gotham-Medium;
+    text-decoration: uppercase;
+}
+
+.partner {
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.partner-img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.partner-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* contact */
+.contact {
+    background-image: url('../images/lienhe-bg.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    padding: 5rem 0;
+    background-size: 100%;
+}
+
+.contact-img {
+    position: absolute;
+    left: 2rem;
+    bottom: 4rem;
+    width: 15rem;
+    overflow: hidden;
+}
+
+.contact-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact-info {
+    margin-left: 10rem;
+}
+
+.contact-info p {
+    color: #fff;
+    margin: 0;
+    font-family: Gotham-Medium;
+    position: relative;
+    margin-right: 10rem;
+    font-size: 1.2rem;
+}
+
+.contact-info p:last-child::after {
+    position: relative;
+    content: "";
+    left: 0;
+    bottom: -0.5rem;
+    width: 65%;
+    height: 5px;
+    background-color: #fff;
+}
+
+.contact-input span {
+    color: #fff;
+    font-size: .7rem;
+    font-family: Gotham-Medium;
+}
+
+.contact-input input {
+    padding: .5rem 1.5rem;
+    color: #000;
+    outline: none;
+    font-family: Gotham-Medium;
+    font-size: .8rem;
+    width: 20rem;
+    border: none;
+}
+
+.contact-input button {
+    padding: .5rem 2rem;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    font-size: .8rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    font-family: Gotham-Medium;
+}

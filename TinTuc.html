@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin tức</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/Tintuc.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="container d-flex justify-content-between align-items-center ">
+            <div class="header__logo">
+                <a href="TrangChu.html">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+            </div>
+            <nav>
+                <ul class="d-flex">
+                    <li><a href="TrangChu.html">Trang chủ</a></li>
+                    <li><a href="GioiThieu.html">Giới thiệu</a></li>
+                    <li><a href="SanPham.html">Sản phẩm</a></li>
+                    <li><a class="active" href="TinTuc.html">Tin tức</a></li>
+                    <li><a href="DoiTac.html">Đối tác</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- main -->
+    <section class="main">
+        <div class="container">
+            <h3>Tin tức</h3>
+            <div class="row news">
+                <!-- <div class="col-md-4 news__item">
+                    <div class="news__item__img">
+                        <img src="images/tin-tuc/tintuc-1.png" alt="">
+                    </div>
+                    <a href="BaiViet.html">Ngất ngây với top 10 mẫu nội thất chung cư 1 phòng ngủ đẹp</a>
+                    <p>Những căn hộc chung cư mini, có diện tích nhỏ ngày càng trở lên ưa chuộng hơn trong cuộc sống hiện đại với những ai có khoản kinh phí "hạn hẹp."</p>
+                </div> -->
+            </div>
+            <div class="news__pagination d-flex text-center">
+                <ul class='d-flex mx-auto'>
+                    <li class="active" page-number="1">1</li>
+                    <li page-number="2">2</li>
+                    <li page-number="3">3</li>
+                    <li page-number="4">4</li>
+                    <li page-number="5">></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 footer__item">
+                    <h6>Thông tin chung</h6>
+                    <h5>công ty tnhh hoàng hoan</h5>
+                    <ul>
+                        <li><i class="fa-solid fa-phone"></i><span>09999999</span></li>
+                        <li><i class="fa-solid fa-envelope"></i><span>abc@gmail.com</span></li>
+                        <li><i class="fa-solid fa-location-dot"></i><span>Số 5 - Vũ Ngọc Phan</span></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footer__item">
+                    <h6>Về chúng tôi</h6>
+                    <ul>
+                        <li>Giới thiệu</li>
+                        <li>Sản phẩm</li>
+                        <li>Tin tức</li>
+                        <li>Đối tác</li>
+                        <li>Liên hệ</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 footer__item">
+                    <h6>Kết nối với chúng tôi</h6>
+                    <div class="footer__item__icon">
+                        <i class="fa-brands fa-facebook-square"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<script src="js/tintuc.js"></script>
+<script>
+    $(document).ready(function () {
+        $('header nav ul li a').click(function () {
+            $('header nav ul li a').removeClass('active');
+            $(this).addClass('active');
+        })
+    })
+</script>
+</html>
